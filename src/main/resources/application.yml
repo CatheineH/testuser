@@ -1,0 +1,14 @@
+server:
+  ip: localhost
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qing?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 110409admin
+
+files:
+  upload:
+    path: D:/files/
